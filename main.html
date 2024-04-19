@@ -3,14 +3,77 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            margin: 10px;
+        }
+
+        header {
+            margin-bottom: 10px;
+        }
+
+        a {
+            font-size: small;
+            color: navy;
+            text-decoration: none;
+        }
+
+        ol,
+        ul {
+            margin-left: 50px;
+        }
+
+        .container {
+            margin-top: 20px;
+        }
+
+        #skills {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <!-- the entire body must be written by student -->
+    <header>
+        <div id="image"><img src="Images/PFP.jpg" title="ProfilePic" alt="Image Offline" height="150vh"></div>
+        <span>
+            <h1>Kiran Thomas Jacob</h1><a href="https://www.linkedin.com/in/kiran-thomas-jacob-b66b931b7/"
+                target="_blank">My LinkedIn</a>
+        </span>
+    </header>
+    <hr>
+    <div class="container">
+        <section id="skills">
+            <h2>Skills</h2>
+            <ol type="a">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>JAVA</li>
+                <li>Python</li>
+                <li>C/C++</li>
+            </ol>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul type="square">
+                <li>Beagle Blog (HTML, CSS)</li>
+                <li>Account Aggregator (HTML, CSS, Bootstrap)</li>
+                <li>Malware Detection (Machine Learning, CNN)</li>
+                <li>Secure Medical Chatbot (Machine Learning, Federated Learning)</li>
+            </ul>
+        </section>
+    </div>
 
+    <script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>
